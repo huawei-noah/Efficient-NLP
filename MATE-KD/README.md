@@ -16,7 +16,6 @@ The paper can be found at https://arxiv.org/abs/2105.05912v1.
 ### Features:
 
 * Does MATE-KD
-* ...
 
 # Requirements and Installation
 
