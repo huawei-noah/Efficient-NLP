@@ -60,10 +60,19 @@ This project's [license](LICENSE) is under the Apache 2.0 license.
 Please cite as:
 
 ``` bibtex
-@inproceedings{something,
-  title = {Fill in the title here},
-  author = {Authors here},
-  booktitle = {Proceedings here},
-  year = {2019},
+@inproceedings{rashid-etal-2021-mate,
+    title = "{MATE}-{KD}: Masked Adversarial {TE}xt, a Companion to Knowledge Distillation",
+    author = "Rashid, Ahmad  and
+      Lioutas, Vasileios  and
+      Rezagholizadeh, Mehdi",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.86",
+    doi = "10.18653/v1/2021.acl-long.86",
+    pages = "1062--1071",
+    abstract = "The advent of large pre-trained language models has given rise to rapid progress in the field of Natural Language Processing (NLP). While the performance of these models on standard benchmarks has scaled with size, compression techniques such as knowledge distillation have been key in making them practical. We present MATE-KD, a novel text-based adversarial training algorithm which improves the performance of knowledge distillation. MATE-KD first trains a masked language model-based generator to perturb text by maximizing the divergence between teacher and student logits. Then using knowledge distillation a student is trained on both the original and the perturbed training samples. We evaluate our algorithm, using BERT-based models, on the GLUE benchmark and demonstrate that MATE-KD outperforms competitive adversarial learning and data augmentation baselines. On the GLUE test set our 6 layer RoBERTa based model outperforms BERT-large.",
 }
 ```
