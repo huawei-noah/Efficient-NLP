@@ -16,8 +16,10 @@ This repository is a collection of Knowledge Distillation (KD) methods implement
     * [MATE-KD: Masked Adversarial TExt, a Companion to Knowledge Distillation](https://arxiv.org/abs/2105.05912v1)
 * [**Combined-KD**](Combined-KD)
     * Proposition of Combined-KD (ComKD) that takes advantage of data-augmentation and progressive training.
-    * [How to Select One Among All? An Extensive Empirical Study Towards the Robustness of Knowledge Distillation in Natural Language Understanding
-](https://arxiv.org/abs/2109.05696v1)
+    * [How to Select One Among All? An Extensive Empirical Study Towards the Robustness of Knowledge Distillation in Natural Language Understanding](https://arxiv.org/abs/2109.05696v1)
+* [**Minimax-kNN**](Minimax-kNN)
+    * A sample efficient semi-supervised data augmentation technique.
+    * [Not Far Away, Not So Close: Sample Efficient Nearest Neighbour Data Augmentation via MiniMax](https://aclanthology.org/2021.findings-acl.309/)
 
 </p></details>
 
