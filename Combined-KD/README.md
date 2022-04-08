@@ -42,22 +42,11 @@ In this project, we proposed a Combined-KD (ComKD) by taking advantage of data-a
 
 # Getting Started
 
-The [full documentation](https://www.huawei.com/) contains cool things.
-
-
 ## Train the models:
 ```
 bash  run_combinekd_mnli_bert.sh           for BERT model
 bash  run_combinekd_mnli_roberta.sh        for RoBERTa model
 ```
-
-## Something else doing
-
-# Join the Huawei Noah's Ark community
-
-* You can omit this section if you want, it's just if needed in the future.
-* Main page: https://www.noahlab.com.hk/
-* Github: https://github.com/huawei-noah
 
 # License
 
