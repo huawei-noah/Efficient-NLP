@@ -18,7 +18,7 @@ This repository is a collection of Knowledge Distillation (KD) methods implement
     * Proposition of Combined-KD (ComKD) that takes advantage of data-augmentation and progressive training.
     * [How to Select One Among All? An Extensive Empirical Study Towards the Robustness of Knowledge Distillation in Natural Language Understanding](https://arxiv.org/abs/2109.05696v1)
 * [**Minimax-kNN**](Minimax-kNN)
-    * A sample efficient semi-supervised _k_NN data augmentation technique.
+    * A sample efficient semi-supervised kNN data augmentation technique.
     * [Not Far Away, Not So Close: Sample Efficient Nearest Neighbour Data Augmentation via MiniMax](https://aclanthology.org/2021.findings-acl.309/)
 * [**Glitter**](Glitter)
     * A universal sample efficient strategy for data augmentation.
