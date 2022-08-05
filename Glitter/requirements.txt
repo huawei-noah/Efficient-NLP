@@ -1,0 +1,17 @@
+tqdm >= 4.27
+dataclasses;python_version<'3.7'
+
+numpy
+scikit-learn
+
+torch-scatter == 2.0.6
+
+transformers ~= 4.5.0
+datasets == 1.11.0
+
+pytorch-lightning == 1.1.2
+torchmetrics == 0.5.0
+
+sacremoses >= 0.0.41
+spacy >= 3.0
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
