@@ -345,7 +345,7 @@ class LoggingCallback(pl.Callback):
 
         # Log and save results to file
         output_test_results_file = os.path.join(pl_module.hparams.output_dir, f"{results_file_prefix}_results.txt")
-        with open(output_test_results_file, "w") as writer:
+        with open(output_test_results_file, "w", encoding="utf-8") as writer:
             for key in sorted(metrics):
                 if key not in ["log", "progress_bar"]:
                     rank_zero_info("{} = {}\n".format(key, str(metrics[key])))
